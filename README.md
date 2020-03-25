@@ -5,10 +5,34 @@ This repository is administered by [@IVANDOMENZAIN](https://github.com/IVANDOMEN
 
 ## Installation
 ### Required Software
-- R studio (version 1.0.136 or later)
+* [R](https://www.r-project.org/) (version v3.6 or later)
+* [RStudio](https://rstudio.com/) (version v1.2 or later)
+* [Rtools](https://cran.r-project.org/bin/windows/Rtools/) (in case of a windows setup)
+* [Git](https://git-scm.com/) (or any Git client of your choice, e.g. [Github Desktop](https://desktop.github.com/))
 
 ### Installation Instructions
-* Clone master branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/CHASSY_multiOmics_Analysis).
+* Clone locally this repository.
+
+## Repository Structure
+--------------------
+    |- code/            # all programmatic code relating to the project
+    |  +- templates/    # scripts for generating template files
+    |
+    |- data/            # all data from the study
+    |  |- raw_internal/ # raw data generated in-lab or by collaborators, will not be altered
+    |  |- raw_external/ # data from third-party sources, databases etc, will not be altered
+    |     +- colormaps/ # color palettes used for all figures
+    |
+    |- doc/             # documentation for the study and other explanatory material
+    |
+    |- results          # all output from workflows and analyses
+    |  |- figures/      # graphs, designated for manuscript figures or publishable material
+    |  +- pictures/     # diagrams, images, and other non-graph graphics
+    |
+    |- .gitignore       # files that will not sync to Github
+    |- LICENSE          # license
+    |- README.md        # the top level description of content
+    +- requirements.txt # the requirements file for reproducing the analysis environment
 
 ## Development Guidelines
 
