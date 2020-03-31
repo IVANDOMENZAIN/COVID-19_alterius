@@ -1,4 +1,7 @@
 # COVID-19_alterius
+
+[![Join the chat at https://gitter.im/COVID-19_alterius/community](https://badges.gitter.im/COVID-19_alterius/community.svg)](https://gitter.im/COVID-19_alterius/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Public repository for statistical analysis of epidemiological data on COVID-19
 
 This repository is administered by [@IVANDOMENZAIN](https://github.com/IVANDOMENZAIN), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
